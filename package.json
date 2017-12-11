@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-remark-flowchat",
+  "name": "gatsby-remark-flowchart",
   "version": "0.0.1",
-  "description": "Make nice graphs in your markdown files in gatsbyjs, using mermaid",
+  "description": "Make nice graphs in your markdown files in gatsbyjs, using flowchart",
   "author": "Donghua Liu <liudonghua123@gmail.com> (http://liudonghua.com)",
   "license": "MIT",
   "dependencies": {
@@ -12,15 +12,15 @@
     "gatsby",
     "gatsby-plugin",
     "graph",
-    "flowchat.js",
+    "flowchart.js",
     "remark"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liudonghua123/gatsby-remark-flowchat.git"
+    "url": "git+https://github.com/liudonghua123/gatsby-remark-flowchart.git"
   },
   "bugs": {
-    "url": "https://github.com/liudonghua123/gatsby-remark-flowchat/issues"
+    "url": "https://github.com/liudonghua123/gatsby-remark-flowchart/issues"
   },
-  "homepage": "https://github.com/liudonghua123/gatsby-remark-flowchat#readme"
+  "homepage": "https://github.com/liudonghua123/gatsby-remark-flowchart#readme"
 }
