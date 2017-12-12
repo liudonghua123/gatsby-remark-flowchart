@@ -16,7 +16,14 @@ plugins: [
     resolve: 'gatsby-transformer-remark',
     options: {
       plugins: [
-        `gatsby-remark-flowchart`,
+        {
+          resolve: `gatsby-remark-flowchart`,
+          options: {
+            // see more details on https://github.com/adrai/flowchart.js
+            'fill': 'white',
+            'line-color': 'black',
+          }
+        },
       ]
     }
   }
