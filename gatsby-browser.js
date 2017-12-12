@@ -1,4 +1,5 @@
-exports.onInitialClientRender = (n, config) => {
+exports.onInitialClientRender = (n, options) => {
+  // console.info(`options: ${options}`)
   // see https://developer.mozilla.org/en-US/docs/Web/API/HTMLScriptElement
   // https://www.html5rocks.com/en/tutorials/speed/script-loading/
   var importScript = (function (oHead) {
@@ -17,7 +18,7 @@ exports.onInitialClientRender = (n, config) => {
 
 importScript("https://cdn.bootcss.com/raphael/2.2.7/raphael.min.js", function () {
   importScript("http://flowchart.js.org/flowchart-latest.js", function () {
-    importScript("https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js", function () {
+    // importScript("https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js", function () {
       // $.fn.flowchart = function( options ) {
       //   return this.each(function() {
       //     var $this = $(this);
@@ -36,9 +37,9 @@ importScript("https://cdn.bootcss.com/raphael/2.2.7/raphael.min.js", function ()
         // use childNodes[0].nodeValue instead of text() of jquery
         var diagram = flowchart.parse(flowchartElements[i].childNodes[0].nodeValue);
         flowchartElements[i].childNodes[0].nodeValue="";
-        diagram.drawSVG(flowchartElements[i]);
+        diagram.drawSVG(flowchartElements[i], options);
       }
-    });
+    // });
   });
  });
 }
