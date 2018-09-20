@@ -1,6 +1,6 @@
 # gatsby-remark-graph
 
-Make nice graphs in your markdown files in gatsbyjs, using [flowchat.js](http://flowchart.js.org/).
+Make nice graphs in your markdown files in gatsbyjs, using [flowchart.js](http://flowchart.js.org/).
 
 ## install
 
