@@ -35,7 +35,7 @@ Make sure you put it before other plugins (especially those that work with `code
 ### Usage in Markdown
 
 <pre>
-```flowchart
+```
 st=>start: Start:>http://www.google.com[blank]
 e=>end:>http://www.google.com
 op1=>operation: My Operation
